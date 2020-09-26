@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ddaa916-aa47-4288-9ea8-89089e541b57" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cmMQd82BnFA5F7KjCT4TUo9qIw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.TweetGenerator">
+    <configuration name="TweetGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TweetGenerator" />
+      <module name="RandomProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JarApplication">
+      <option name="JAR_PATH" value="$USER_HOME$/Downloads/twitter4j-4.0.7/lib/twitter4j-core-4.0.7.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="twitter4j" type="JarApplication">
+      <option name="JAR_PATH" value="$USER_HOME$/Downloads/twitter4j-4.0.7/lib/twitter4j-core-4.0.7.jar" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/twitter4j-4.0.7/lib" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TweetGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ddaa916-aa47-4288-9ea8-89089e541b57" name="Default Changelist" comment="" />
+      <created>1591129300518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591129300518</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600726908739">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="0" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.945@0.23.1680.945" timestamp="1600726908739" />
+    <state x="988" y="190" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601010099467">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="988" y="190" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.943@0.23.1680.943" timestamp="1601010099467" />
+    <state x="290" y="266" key="EnvironmentVariablesDialog" timestamp="1600726818583">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="290" y="266" key="EnvironmentVariablesDialog/0.23.1680.945@0.23.1680.945" timestamp="1600726818583" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1601093970619">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1601093970619" />
+    <state width="796" height="244" key="GridCell.Tab.0.bottom/0.23.1680.943@0.23.1680.943" timestamp="1601010672584" />
+    <state width="796" height="252" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1601003934076" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1601093970618">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1601093970618" />
+    <state width="796" height="244" key="GridCell.Tab.0.center/0.23.1680.943@0.23.1680.943" timestamp="1601010672583" />
+    <state width="796" height="252" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1601003934074" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1601093970617">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1601093970617" />
+    <state width="796" height="244" key="GridCell.Tab.0.left/0.23.1680.943@0.23.1680.943" timestamp="1601010672582" />
+    <state width="796" height="252" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1601003934074" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1601093970619">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1601093970619" />
+    <state width="796" height="244" key="GridCell.Tab.0.right/0.23.1680.943@0.23.1680.943" timestamp="1601010672583" />
+    <state width="796" height="252" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1601003934075" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1601093921028">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1601093921028" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1601093921027">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1601093921027" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1601093921026">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1601093921026" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1601093921028">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1601093921028" />
+    <state x="577" y="76" key="SettingsEditor" timestamp="1601010086899">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="577" y="76" key="SettingsEditor/0.23.1680.943@0.23.1680.943" timestamp="1601010086899" />
+    <state x="577" y="76" key="SettingsEditor/0.23.1680.945@0.23.1680.945" timestamp="1601003122870" />
+    <state x="66" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1600999899878">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="66" y="326" key="com.intellij.ide.util.TipDialog/0.23.1680.943@0.23.1680.943" timestamp="1600999899878" />
+    <state x="66" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.945@0.23.1680.945" timestamp="1600726277923" />
+    <state x="66" y="328" key="com.intellij.ide.util.TipDialog/0.23.1680.948@0.23.1680.948" timestamp="1600654641411" />
+    <state x="234" y="147" key="new project wizard" timestamp="1601010315395">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="234" y="147" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1601010315395" />
+  </component>
+</project>
