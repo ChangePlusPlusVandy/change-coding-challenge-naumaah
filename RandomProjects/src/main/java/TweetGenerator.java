@@ -61,6 +61,9 @@ public class TweetGenerator extends TweetGame{
         return response;
     }
 
+    /*
+    This method changes the response to a string of tweets
+     */
     public static String toString (StringBuffer response) {
         //makes a JSON array with the response from the previous method
         JSONArray arrOfTweets = new JSONArray(response.toString());
@@ -83,6 +86,9 @@ public class TweetGenerator extends TweetGame{
         return tweetText;
     }
 
+    /*
+    This method takes the tweets and gets a random one
+     */
     public static String getRandomTweet (String tweets) {
         String[] tweetArr;
         //using java.util.regex Pattern
@@ -91,28 +97,49 @@ public class TweetGenerator extends TweetGame{
         //splits tweets into array
         tweetArr = pattern.split(tweets);
 
+        //assigns n to a random number
         Random randTweet = new Random();
         int n = randTweet.nextInt(numTweets);
 
+        //returns tweet at that random index of the array
         return tweetArr[n];
     }
 
-    public static boolean guessedCorrectly (String userGuess, String tweetKey) throws IOException {
-        boolean guess = false;
-        StringBuffer response = TweetGenerator.getTweets("elonmusk");
+    /*
+    This method determines if the user guessed the correct person who tweeted the random tweet
+     */
+    public static boolean guessedCorrectly (String userGuess, String tweetKey, String screenName1,
+                                            String screenName2) throws IOException {
+        boolean guess = false; //sets bool variable for whether or not user is correct
+
+        //gets the response of twitter user's tweets
+        StringBuffer response = TweetGenerator.getTweets(screenName);
+
+        //sets tweets into an array
         JSONArray elonTweets = new JSONArray(response.toString());
+
         for (int i = 0; i < elonTweets.length(); i++) {
+
+            //sets each tweet as an individual JSON object
             JSONObject singleTweet = new JSONObject(elonTweets.get(i).toString());
+
+            //if the text of the tweet equals the random tweet and the user guessed correclty,
+            // set guess to true.
             if (singleTweet.get("text").toString().equals(tweetKey)) {
-                guess = userGuess.equalsIgnoreCase("Elon Musk");
+                guess = userGuess.equals(screenName);
             }
         }
 
+        //if the tweet was not found, then it is the other user's tweet
         if (!guess) {
-            if (userGuess.equalsIgnoreCase("Kanye West")) {
+
+            //if the user guessed that twitter user's account. set guess to true
+            if (userGuess.equals(screenName2)) {
                 guess = true;
             }
         }
+
+        //return guess
         return guess;
     }
 }
