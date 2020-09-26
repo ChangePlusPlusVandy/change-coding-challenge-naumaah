@@ -113,7 +113,7 @@ public class TweetGenerator extends TweetGame{
         boolean guess = false; //sets bool variable for whether or not user is correct
 
         //gets the response of twitter user's tweets
-        StringBuffer response = TweetGenerator.getTweets(screenName);
+        StringBuffer response = TweetGenerator.getTweets(screenName1);
 
         //sets tweets into an array
         JSONArray elonTweets = new JSONArray(response.toString());
@@ -126,7 +126,7 @@ public class TweetGenerator extends TweetGame{
             //if the text of the tweet equals the random tweet and the user guessed correclty,
             // set guess to true.
             if (singleTweet.get("text").toString().equals(tweetKey)) {
-                guess = userGuess.equals(screenName);
+                guess = userGuess.equals(screenName2);
             }
         }
 
