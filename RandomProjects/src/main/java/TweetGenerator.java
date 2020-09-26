@@ -87,6 +87,8 @@ public class TweetGenerator extends TweetGame{
         String[] tweetArr;
         //using java.util.regex Pattern
         Pattern pattern = Pattern.compile("\n");
+
+        //splits tweets into array
         tweetArr = pattern.split(tweets);
 
         Random randTweet = new Random();
